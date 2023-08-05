@@ -1,0 +1,51 @@
+[submodule "coreJSON"]
+	path = coreJSON
+	url = git@github.com:Skptak/coreJSON.git
+[submodule "CoreMQTT-Agent"]
+	path = CoreMQTT-Agent
+	url = git@github.com:Skptak/CoreMQTT-Agent.git
+[submodule "coreSNTP"]
+	path = coreSNTP
+	url = git@github.com:Skptak/coreSNTP.git
+[submodule "FreeRTOS-Cellular-Interface"]
+	path = FreeRTOS-Cellular-Interface
+	url = git@github.com:Skptak/FreeRTOS-Cellular-Interface.git
+[submodule "device-defender-for-aws-iot-embedded-sdk"]
+	path = device-defender-for-aws-iot-embedded-sdk
+	url = git@github.com:Skptak/device-defender-for-aws-iot-embedded-sdk.git
+[submodule "backoffAlgorithm"]
+	path = backoffAlgorithm
+	url = git@github.com:Skptak/backoffAlgorithm.git
+[submodule "device-shadow-for-aws-iot-embedded-sdk"]
+	path = device-shadow-for-aws-iot-embedded-sdk
+	url = git@github.com:Skptak/device-shadow-for-aws-iot-embedded-sdk.git
+[submodule "coreHTTP"]
+	path = coreHTTP
+	url = git@github.com:Skptak/coreHTTP.git
+[submodule "fleet-provisioning-for-aws-iot-embedded-sdk"]
+	path = fleet-provisioning-for-aws-iot-embedded-sdk
+	url = git@github.com:Skptak/fleet-provisioning-for-aws-iot-embedded-sdk.git
+[submodule "jobs-for-aws-iot-embedded-sdk"]
+	path = jobs-for-aws-iot-embedded-sdk
+	url = git@github.com:Skptak/jobs-for-aws-iot-embedded-sdk.git
+[submodule "coreMQTT"]
+	path = coreMQTT
+	url = git@github.com:Skptak/coreMQTT.git
+[submodule "ota-for-aws-iot-embedded-sdk"]
+	path = ota-for-aws-iot-embedded-sdk
+	url = git@github.com:Skptak/ota-for-aws-iot-embedded-sdk.git
+[submodule "corePKCS11"]
+	path = corePKCS11
+	url = git@github.com:Skptak/corePKCS11.git
+[submodule "sigv4-for-aws-iot-embedded-sdk"]
+	path = sigv4-for-aws-iot-embedded-sdk
+	url = git@github.com:Skptak/sigv4-for-aws-iot-embedded-sdk.git
+[submodule "FreeRTOS-Kernel"]
+	path = FreeRTOS-Kernel
+	url = git@github.com:Skptak/FreeRTOS-Kernel.git
+[submodule "FreeRTOS-Plus-TCP"]
+	path = FreeRTOS-Plus-TCP
+	url = git@github.com:Skptak/FreeRTOS-Plus-TCP.git
+[submodule "FreeRTOS"]
+	path = FreeRTOS
+	url = git@github.com:Skptak/FreeRTOS.git

@@ -1,0 +1,60 @@
+#!/bin/bash
+dirs=( "CoreMQTT-Agent" "coreSNTP" 
+"FreeRTOS-Cellular-Interface" "device-defender-for-aws-iot-embedded-sdk"
+"backoffAlgorithm" "device-shadow-for-aws-iot-embedded-sdk"
+"coreHTTP" "fleet-provisioning-for-aws-iot-embedded-sdk"
+"coreJSON" "jobs-for-aws-iot-embedded-sdk"
+"coreMQTT" "ota-for-aws-iot-embedded-sdk"
+"corePKCS11" "sigv4-for-aws-iot-embedded-sdk"
+"FreeRTOS-Kernel" "FreeRTOS-Plus-TCP" "FreeRTOS"
+)
+bashPass="\033[32;1m"
+bashInfo="\033[33;1m"
+bashFail="\033[31;1m"
+bashEnd="\033[0m"
+#gcMy(){
+#    git clone git@github.com:Skptak/$1.git "$1"
+#}
+
+gcrMy(){
+    gcr git@github.com:Skptak/"$dir".git 
+}
+
+
+clean(){
+        # Clone repos
+    #git clone git@github.com:Skptak/$dir.git
+    git clean -xfd
+    git checkout *
+    git status
+
+}
+
+makeRustWordList(){
+    files=$(fdfind -e c -e h);
+    touch .cSpellWords.txt;
+    sort -u .cSpellWords.txt -o .cSpellWords.txt;
+    spell-checker -w .cSpellWords.txt $files > .rustSpellWords.txt;
+    sed -r -i 's/(.*): //g' .rustSpellWords.txt ;
+    sort -u .rustSpellWords.txt  -o .rustSpellWords.txt; 
+    cat .cSpellWords.txt >> .rustSpellWords.txt;
+    sort -u .rustSpellWords.txt -o .rustSpellWords.txt;
+    cat .rustSpellWords.txt;
+}
+
+#dirs=("coreJSON")
+for dir in ${dirs[@]}; do
+    cd $dir
+    if [[ "$(basename $(pwd))" != "$dir" ]]; then
+        echo "Not in the directory we should be"
+        exit 1;
+    fi
+    echo -e "$bashPass dir= $dir $bashEnd"
+    
+    makeRustWordList
+    
+    
+    
+    echo -e "\n"
+    cd ..
+done
