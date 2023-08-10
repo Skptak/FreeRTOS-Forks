@@ -1,9 +1,6 @@
 [submodule "coreJSON"]
 	path = coreJSON
 	url = git@github.com:Skptak/coreJSON.git
-[submodule "CoreMQTT-Agent"]
-	path = CoreMQTT-Agent
-	url = git@github.com:Skptak/CoreMQTT-Agent.git
 [submodule "coreSNTP"]
 	path = coreSNTP
 	url = git@github.com:Skptak/coreSNTP.git
@@ -31,6 +28,9 @@
 [submodule "coreMQTT"]
 	path = coreMQTT
 	url = git@github.com:Skptak/coreMQTT.git
+[submodule "coreMQTT-Agent"]
+	path = coreMQTT-Agent
+	url = git@github.com:Skptak/coreMQTT-Agent.git
 [submodule "ota-for-aws-iot-embedded-sdk"]
 	path = ota-for-aws-iot-embedded-sdk
 	url = git@github.com:Skptak/ota-for-aws-iot-embedded-sdk.git
