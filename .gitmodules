@@ -46,6 +46,3 @@
 [submodule "FreeRTOS-Plus-TCP"]
 	path = FreeRTOS-Plus-TCP
 	url = git@github.com:Skptak/FreeRTOS-Plus-TCP.git
-[submodule "FreeRTOS"]
-	path = FreeRTOS
-	url = git@github.com:Skptak/FreeRTOS.git
