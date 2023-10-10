@@ -46,3 +46,78 @@
 [submodule "FreeRTOS-Plus-TCP"]
 	path = FreeRTOS-Plus-TCP
 	url = git@github.com:Skptak/FreeRTOS-Plus-TCP.git
+[submodule "Lab-Project-FreeRTOS-POSIX"]
+	path = Lab-Project-FreeRTOS-POSIX
+	url = git@github.com:Skptak/Lab-Project-FreeRTOS-POSIX.git
+[submodule "Lab-Project-FreeRTOS-LoRaWAN"]
+	path = Lab-Project-FreeRTOS-LoRaWAN
+	url = git@github.com:Skptak/Lab-Project-FreeRTOS-LoRaWAN.git
+[submodule "Lab-Project-FreeRTOS-Cellular-Demo"]
+	path = Lab-Project-FreeRTOS-Cellular-Demo
+	url = git@github.com:Skptak/Lab-Project-FreeRTOS-Cellular-Demo.git
+[submodule "coreMQTT-Agent-Demos"]
+	path = coreMQTT-Agent-Demos
+	url = git@github.com:Skptak/coreMQTT-Agent-Demos.git
+[submodule "FreeRTOS-SESIP"]
+	path = FreeRTOS-SESIP
+	url = git@github.com:Skptak/FreeRTOS-SESIP.git
+[submodule "FreeRTOS-SMP-Demos"]
+	path = FreeRTOS-SMP-Demos
+	url = git@github.com:Skptak/FreeRTOS-SMP-Demos.git
+[submodule "FreeRTOS-Kernel-Partner-Supported-Ports"]
+	path = FreeRTOS-Kernel-Partner-Supported-Ports
+	url = git@github.com:Skptak/FreeRTOS-Kernel-Partner-Supported-Ports.git
+[submodule "FreeRTOS-Partner-Supported-Demos"]
+	path = FreeRTOS-Partner-Supported-Demos
+	url = git@github.com:Skptak/FreeRTOS-Partner-Supported-Demos.git
+[submodule "FreeRTOS-Kernel-Community-Supported-Ports"]
+	path = FreeRTOS-Kernel-Community-Supported-Ports
+	url = git@github.com:Skptak/FreeRTOS-Kernel-Community-Supported-Ports.git
+[submodule "FreeRTOS-Community-Supported-Demos"]
+	path = FreeRTOS-Community-Supported-Demos
+	url = git@github.com:Skptak/FreeRTOS-Community-Supported-Demos.git
+[submodule "iot-reference-stm32u5"]
+	path = iot-reference-stm32u5
+	url = git@github.com:Skptak/iot-reference-stm32u5.git
+[submodule "CMSIS-Packs"]
+	path = CMSIS-Packs
+	url = git@github.com:Skptak/CMSIS-Packs.git
+[submodule "FreeRTOS-Libraries-Integration-Tests"]
+	path = FreeRTOS-Libraries-Integration-Tests
+	url = git@github.com:Skptak/FreeRTOS-Libraries-Integration-Tests.git
+[submodule "FreeRTOS-Cellular-Interface-Community-Supported-Ports"]
+	path = FreeRTOS-Cellular-Interface-Community-Supported-Ports
+	url = git@github.com:Skptak/FreeRTOS-Cellular-Interface-Community-Supported-Ports.git
+[submodule "iot-reference-nxp-rt1060"]
+	path = iot-reference-nxp-rt1060
+	url = git@github.com:Skptak/iot-reference-nxp-rt1060.git
+[submodule "Lab-Project-FreeRTOS-MCUBoot"]
+	path = Lab-Project-FreeRTOS-MCUBoot
+	url = git@github.com:Skptak/Lab-Project-FreeRTOS-MCUBoot.git
+[submodule "Labs-Project-Espressif-Demos"]
+	path = Labs-Project-Espressif-Demos
+	url = git@github.com:Skptak/Labs-Project-Espressif-Demos.git
+[submodule "iot-reference-esp32c3"]
+	path = iot-reference-esp32c3
+	url = git@github.com:Skptak/iot-reference-esp32c3.git
+[submodule "lab-CMSIS-Packs-Demos"]
+	path = lab-CMSIS-Packs-Demos
+	url = git@github.com:Skptak/lab-CMSIS-Packs-Demos.git
+[submodule "FreeRTOS-Cellular-Interface-Reference-Quectel-BG96"]
+	path = FreeRTOS-Cellular-Interface-Reference-Quectel-BG96
+	url = git@github.com:Skptak/FreeRTOS-Cellular-Interface-Reference-Quectel-BG96.git
+[submodule "FreeRTOS-Cellular-Interface-Reference-Sierra-Wireless-HL7802"]
+	path = FreeRTOS-Cellular-Interface-Reference-Sierra-Wireless-HL7802
+	url = git@github.com:Skptak/FreeRTOS-Cellular-Interface-Reference-Sierra-Wireless-HL7802.git
+[submodule "FreeRTOS-Cellular-Interface-Reference-ublox-SARA-R4"]
+	path = FreeRTOS-Cellular-Interface-Reference-ublox-SARA-R4
+	url = git@github.com:Skptak/FreeRTOS-Cellular-Interface-Reference-ublox-SARA-R4.git
+[submodule "freertos-gdb"]
+	path = freertos-gdb
+	url = git@github.com:Skptak/freertos-gdb.git
+[submodule "Labs-Project-ota-example-for-aws-iot-core"]
+	path = Labs-Project-ota-example-for-aws-iot-core
+	url = git@github.com:Skptak/Labs-Project-ota-example-for-aws-iot-core.git
+[submodule "iot-reference-arm-corstone3xx"]
+	path = iot-reference-arm-corstone3xx
+	url = git@github.com:Skptak/iot-reference-arm-corstone3xx.git
