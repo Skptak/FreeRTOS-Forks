@@ -76,9 +76,6 @@
 [submodule "iot-reference-stm32u5"]
 	path = iot-reference-stm32u5
 	url = git@github.com:Skptak/iot-reference-stm32u5.git
-[submodule "CMSIS-Packs"]
-	path = CMSIS-Packs
-	url = git@github.com:Skptak/CMSIS-Packs.git
 [submodule "FreeRTOS-Libraries-Integration-Tests"]
 	path = FreeRTOS-Libraries-Integration-Tests
 	url = git@github.com:Skptak/FreeRTOS-Libraries-Integration-Tests.git
